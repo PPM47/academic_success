@@ -1,0 +1,72 @@
+:root{
+    /*--------------Colors------------------*/
+    --h-dark-blue:#011e49;
+    --hl-dark-blue:#070748;
+    --dark-blue:#03045e;
+    --light-blue:#ffffff;
+    --light2-blue:#00b4d8;
+    --light3-blue: #369dc5;
+    --light4-blue: #caf0f8;
+    --text-white: #FFFF;
+    --error-msg:red;
+    --no-error-msg: green;
+
+    --light-blue-form:#b8b8b8;
+    --h-dark-blue-form:#ffffff;
+    --text-white-form: #ffffff;
+    --border-white-form: #989898;
+    --border-white-form-f: #6f6f6f;
+    --bg-white-form: #FFFF;
+    --table-header:#f2f4f7;
+
+    /*--------------width & hight------------------*/
+    --con01: 22rem;
+    --min-width-con: 300px;
+    --nav-max-hight: 900px;
+    --nav-min-hight: 90vh;
+    --nav-itmes-max-h: 10rem;
+    /*---------------gap size-----------------*/
+    --con-6px-gap: 1rem;
+    /*----------------font sizes----------------*/
+    --fontsize-nav-site-name-25: 2rem;
+    --fontsize-nav-site-logo: 2rem;
+    --fontsize-nav-bar-links-18: 1.5rem;
+    --fontsize-nav-bar-links-18-d: 1.6rem;
+    --fontsize-nav-bar-links-icon: 2rem;
+    --fontsize-nav-bar-links-hover: 1.6rem;
+    --fontsize-nav-bar-search-18: 0.84375rem;
+    --fontsize-nav-bar-log-tital-25: 1.5625rem;
+
+    --fontsize-from-input-25: 1rem;
+    --font-weight-input-25: 500;
+
+    --fontsize-from-button: 1.7rem;
+
+    /*---------------border radiuos-----------------*/
+    --bg-bo-rds: 1rem;
+    --bg-bo-rds-m-size: 4rem;
+/*--------------------------------*/
+/*--------------------------------*/
+
+/*--------------------------------*/
+/*--------------------------------*/
+  }
+  @keyframes --fontsize-sub-tital-size-25 {
+    0% {
+      font-size: calc(var(--fontsize-para-para-size-25) - 0rem);
+      font-weight: 700;
+    }
+    100% {
+      font-size: calc(var(--fontsize-para-para-size-25) - 0rem);
+      font-weight: 700;
+    }
+  }
+ 
+  
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
