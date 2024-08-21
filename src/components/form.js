@@ -20,11 +20,20 @@ const Form = () => {
             'Content-Type': 'multipart/form-data'
         }
     });
-      setPrediction(response.data.prediction.join(', ')); // Join array of predictions into a string
+    const predictions = response.data.prediction;
+    const predictionNames = predictions.map((pred) => {
+      if (pred === 0) return 'Dropout';
+      if (pred === 1) return 'Enrolled';
+      if (pred === 2) return 'Graduate';
+      return 'Unknown';
+    });
+    setPrediction(predictionNames);
     } catch (error) {
       console.error('Error making prediction:', error);
     }
   };
+
+
 
   return (
     <div className="form-container">
@@ -35,7 +44,8 @@ const Form = () => {
         </label>
         <button type="submit" className='submitbtn'>Submit</button>
       </form>
-      {prediction && <p>Prediction:  {prediction}</p>}
+      {prediction && <p className='output'>Prediction:  {prediction}</p>}
+
     </div>
   );
 };
