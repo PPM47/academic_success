@@ -97,7 +97,7 @@
   border-left: none;
   border-right: none;
   border-bottom: 1px solid var(--border-white-form);
-  
+   /* border: solid red 2px; */
 }
 .form_input2[type="number"] {
   -moz-appearance: textfield;
