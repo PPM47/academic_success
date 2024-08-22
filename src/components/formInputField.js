@@ -79,10 +79,8 @@ const FormInputField = () => {
     "Unemployment rate",
     "Inflation rate",
     "GDP",
-
   ];
   const [prediction, setPrediction] = useState("");
-  const [csvContent, setCsvContent] = useState(''); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -96,7 +94,7 @@ const FormInputField = () => {
     e.preventDefault();
 
     // Convert form data to CSV format
-    const csvHeaders = columnNames.join(',') + '\n';
+    const csvHeaders = columnNames.join(",") + "\n";
     const csvValues = Object.values(formData).join(",") + "\n";
     const csvContent = csvHeaders + csvValues;
 
@@ -736,7 +734,7 @@ const FormInputField = () => {
           <span className="errormsg"></span>
         </div>
         {/* ----------------------------input field------------------------- */}
-       
+
         <button className="submitbtn2">Submit</button>
       </form>
       {prediction && <p className="output">Prediction: {prediction}</p>}
