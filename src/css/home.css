@@ -97,7 +97,7 @@
   border-left: none;
   border-right: none;
   border-bottom: 1px solid var(--border-white-form);
-   /* border: solid red 2px; */
+  /* border: solid red 2px; */
 }
 .form_input2[type="number"] {
   -moz-appearance: textfield;
@@ -180,10 +180,10 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1; /* number of lines to show */
-          line-clamp: 1;
+  line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
-    /* border: solid red 2px; */
+  /* border: solid red 2px; */
 }
 .submitbtn {
   /* position: absolute;
@@ -230,7 +230,7 @@
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.126);
 }
-.main_text_con{
+.main_text_con {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -238,14 +238,13 @@
   align-items: flex-start;
   gap: 0.5rem;
   margin-left: 3rem;
-   /* border: solid red 2px; */
-
+  /* border: solid red 2px; */
 }
-.ptext{
+.ptext {
   display: flex;
   flex-direction: row;
 }
-.red1{
+.red1 {
   color: red;
 }
 @media (min-width: 809px) {
@@ -262,5 +261,4 @@
   }
 }
 @media (min-width: 1809px) {
-
 }
